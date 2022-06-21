@@ -1,28 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@0;1&display=swap');
 
+/*
+
+var(--mintcream)
+var(--azure)
+var(--lightcyan)
+var(--cambridgeblue)
+var(--wintergreendream)
+
+*/
+
+/* ROOT START*/
+
+:root {
+    --mintcream: rgb(246, 255, 248);
+    --azure: rgb(234, 244, 244);
+    --lightcyan: rgb(204, 227, 222);
+    --cambridgeblue: rgb(164, 195, 178);
+    --wintergreendream: rgb(107, 144, 128);
+}
+
+* {
+    font-size: 62.3%;
+}
+
 body {
     font-family: 'Zen Loop', cursive;
     color: white;
 }
 
 .navbar {
-    background-color: pink;
-    color: black;
+    background-color: var(--cambridgeblue);
+    color: var(--mintcream);
 }
 
 .navbar-brand {
-    font-size: 5rem;
+    color: var(--mintcream);
+    font-size: 4rem;
 }
 
 .navbar-toggler {
-    -webkit-transition: font-size 0.5s ease;
-    -moz-transition: font-size 0.5s ease;
-    -o-transition: font-size 0.5s ease;
-    transition: font-size 0.5s ease;
+    color: var(--mintcream);
+    font-size: 8rem;
 }
 
 .navbar-toggler:hover {
-    font-size: 150%;
+    color: var(--lightcyan);
 }
 
 .navbar-toggler:focus {
@@ -31,4 +54,17 @@ body {
 
 .hide-element {
     display: none;
+}
+
+.nav-item {
+    font-size: 3.5rem;
+    margin: 0 0 0 4rem;
+}
+
+.nav-link {
+    color: var(--mintcream);
+}
+
+.nav-link:hover {
+    color: var(--lightcyan);
 }
