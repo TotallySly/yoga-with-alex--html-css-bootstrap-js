@@ -65,6 +65,7 @@ body {
     color: var(--mintcream);
 }
 
+.nav-link:focus,
 .nav-link:hover {
     color: var(--lightcyan);
 }
