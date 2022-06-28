@@ -70,9 +70,20 @@ body {
     color: var(--lightcyan);
 }
 
+.carousel-bk-image-one {
+    background-image: url(assets/images/hero-image.png);
+}
+
+.carousel-bk-image-two {
+    background-image: url(assets/images/image2.png);
+}
+
+.carousel-bk-image-three {
+    background-image: url(assets/images/image3.png);
+}
+
 .image {
     height: 66vh;
-    background-image: url(assets/images/hero-image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
