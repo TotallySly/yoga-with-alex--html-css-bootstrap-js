@@ -111,6 +111,8 @@ body {
 .button {
     margin-top: 1rem;
     font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
     color: var(--mintcream);
     background-color: var(--cambridgeblue);
     padding: 0.2em 3rem;
