@@ -83,7 +83,7 @@ body {
 }
 
 .image {
-    height: 66vh;
+    height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,4 +92,17 @@ body {
 
 .carousel-caption {
     font-size: 10rem;
+}
+
+.button {
+    font-size: 1.6rem;
+    color: var(--mintcream);
+    background-color: var(--cambridgeblue);
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: var(--lightcyan);
 }
