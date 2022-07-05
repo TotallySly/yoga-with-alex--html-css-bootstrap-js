@@ -86,6 +86,14 @@ body {
     background-image: url(assets/images/image3.png);
 }
 
+.carousel-bk-image-four {
+    background-image: url(assets/images/image4.png);
+}
+
+.carousel-bk-image-five {
+    background-image: url(assets/images/image5.png);
+}
+
 .image {
     height: 70vh;
     background-position: center;
