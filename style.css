@@ -154,6 +154,20 @@ body {
 
 /* Carousel changes from bootstrap v.5.2 end*/
 
+/* About Me start */
+.container {
+    font-size: 4rem;
+    height: 75vh;
+    background-color: red;
+}
+
+.about-me-image {
+    background-image: url(assets/images/IMG_8616.jpeg);
+    height: 75vh;
+}
+
+/* About Me end */
+
 /* Media Queries start */
 
 /* Tablet and Higher */
