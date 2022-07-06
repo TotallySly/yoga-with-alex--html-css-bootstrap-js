@@ -161,10 +161,10 @@ body {
     background-color: red;
 }
 
-.about-me-image {
-    background-image: url(assets/images/IMG_8616.jpeg);
-    height: 75vh;
-}
+/* TODO
+    Have a look at Travsey Media page. Scroll in images and text side to side for tablets and above. MAYBE ON MOBILE DEVICES.
+    BUT KISS.
+*/
 
 /* About Me end */
 
