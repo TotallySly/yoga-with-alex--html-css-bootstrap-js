@@ -2,6 +2,8 @@
 
 /*
 
+CSS Variables
+
 var(--mintcream)
 var(--azure)
 var(--lightcyan)
@@ -10,7 +12,7 @@ var(--wintergreendream)
 
 */
 
-/* ROOT START*/
+/* Core Properties Start */
 
 :root {
     --mintcream: rgb(246, 255, 248);
@@ -22,12 +24,17 @@ var(--wintergreendream)
 
 * {
     font-size: 62.3%;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Zen Loop', cursive;
     color: white;
 }
+
+/* Core Properties End*/
+
+/* Nav Bar changes from bootstrap v.5.2 start */
 
 .navbar {
     background-color: var(--cambridgeblue);
@@ -73,6 +80,10 @@ body {
 .nav-link:hover {
     color: var(--lightcyan);
 }
+
+/* Nav Bar changes from bootstrap v.5.2 end*/
+
+/* Carousel changes from bootstrap v.5.2 start*/
 
 .carousel-indicators {
     color: var(--cambridgeblue);
@@ -138,6 +149,11 @@ body {
     color: var(--cambridgeblue);
 }
 
+/* Carousel changes from bootstrap v.5.2 end*/
+
+/* Media Queries start */
+
+/* Tablet and Higher */
 @media screen and (min-width: 768px) {
     .carousel-caption {
         top: 10rem;
@@ -153,3 +169,5 @@ body {
         font-size: 2.5rem;
     }
 }
+
+/* Media Queries end */
