@@ -85,9 +85,12 @@ body {
 
 /* Carousel changes from bootstrap v.5.2 start*/
 
-.carousel-indicators {
-    color: var(--cambridgeblue);
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: var(--cambridgeblue);
 }
+
+/* TODO Potentially change the colour back to black. You require the prev and next icons to be the same colour.
+    At the moment, the img is displayed as a background-image property, so it is hard to change the colour at present.*/
 
 .carousel-bk-image-one {
     background-image: url(assets/images/hero-image.png);
@@ -121,9 +124,9 @@ body {
 .carousel-caption {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    top: 5%;
-    left: 3rem;
+    align-items: center;
+    align-items: center;
+    bottom: 33%;
 }
 
 .carousel-text {
@@ -156,8 +159,8 @@ body {
 /* Tablet and Higher */
 @media screen and (min-width: 768px) {
     .carousel-caption {
-        top: 10rem;
-        left: 33rem;
+        display: flex;
+        align-items: flex-start;
     }
 
     .carousel-text {
