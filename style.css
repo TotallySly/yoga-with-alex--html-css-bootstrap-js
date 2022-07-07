@@ -162,7 +162,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .box {
@@ -177,15 +177,19 @@ body {
     background-origin: 10px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
     transform: translateX(400%);
-    transition: transform 0.4s ease;
+    transition: transform 1s ease;
 }
 
 .box:nth-of-type(even) {
     transform: translateX(-400%);
 }
 
-.box.show {
-    transform: translateX(0);
+.box.show:nth-of-type(even) {
+    transform: translateX(-35%);
+}
+
+.box.show:nth-of-type(odd) {
+    transform: translateX(35%);
 }
 
 /* TODO
