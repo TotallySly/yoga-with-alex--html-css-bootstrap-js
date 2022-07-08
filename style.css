@@ -156,9 +156,9 @@ body {
 
 /* About Me start */
 .container {
+    margin-top: 10rem;
     font-size: 4rem;
-    height: 75vh;
-    background-color: red;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,8 +171,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40rem;
-    height: 20rem;
+    height: 100rem;
+    width: 75rem;
     margin: 1rem;
     background-origin: 10px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
@@ -192,10 +192,14 @@ body {
     transform: translateX(35%);
 }
 
-/* TODO
-    Have a look at Travsey Media page. Scroll in images and text side to side for tablets and above. MAYBE ON MOBILE DEVICES.
-    BUT KISS.
-*/
+.about-me-image {
+    background-image: url('/assets/images/Untitled.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40rem;
+    opacity: 0.5;
+}
 
 /* About Me end */
 
