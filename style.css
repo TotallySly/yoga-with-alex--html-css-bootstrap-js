@@ -145,6 +145,7 @@ body {
     padding: 0.2em 3rem;
     border: none;
     border-radius: 5px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
 }
 
 .button:hover {
@@ -155,8 +156,18 @@ body {
 /* Carousel changes from bootstrap v.5.2 end*/
 
 /* About Me start */
+
+.scott-container {
+    background-color: var(--wintergreendream);
+    background-image: url('/assets/images/about-me.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    opacity: 0.5;
+}
+
 .container {
-    margin-top: 10rem;
     font-size: 4rem;
     height: 100vh;
     display: flex;
@@ -165,9 +176,13 @@ body {
     align-items: center;
 }
 
+.about-me-image {
+}
+
 .box {
-    background-color: steelblue;
-    color: #fff;
+    background-color: var(--mintcream);
+    color: var(--wintergreendream);
+    font-weight: 900;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,7 +192,7 @@ body {
     background-origin: 10px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
     transform: translateX(400%);
-    transition: transform 1s ease;
+    transition: transform 2s ease;
 }
 
 .box:nth-of-type(even) {
@@ -190,15 +205,6 @@ body {
 
 .box.show:nth-of-type(odd) {
     transform: translateX(35%);
-}
-
-.about-me-image {
-    background-image: url('/assets/images/Untitled.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 40rem;
-    opacity: 0.5;
 }
 
 /* About Me end */
