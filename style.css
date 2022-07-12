@@ -157,11 +157,6 @@ body {
 
 /* About Me start */
 
-.scott-container {
-    background-color: var(--mintcream);
-    height: 70vh;
-}
-
 .container {
     font-size: 4rem;
     height: 100vh;
@@ -179,10 +174,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100rem;
+    height: 400px;
     width: 75rem;
     margin: 1rem;
-    background-origin: 10px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
     transform: translateX(400%);
     transition: transform 2s ease;
@@ -198,6 +192,13 @@ body {
 
 .box.show:nth-of-type(odd) {
     transform: translateX(35%);
+}
+
+.about-me-image-one {
+    background-image: url(/assets/images/111111.png);
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 /* About Me end */
