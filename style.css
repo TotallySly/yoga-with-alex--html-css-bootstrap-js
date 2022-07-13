@@ -158,15 +158,25 @@ body {
 /* About Me start */
 
 .container {
-    margin-top: 15rem;
+    margin-top: 10rem;
     background-color: var(--lightcyan);
     margin: none;
-    text-align: right;
+    color: black;
 }
 
 .about-me-image {
-    margin: 10rem;
-    height: 100vh;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    float: right;
+    border-radius: 50%;
+    max-width: 40vw;
+    opacity: 0.7;
+    filter: brightness(50%);
+}
+
+.about-me-text {
+    float: left;
+    font-size: 5rem;
+    width: 33vw;
 }
 
 /* FOR THE COMMENTED OUT BOXES */
