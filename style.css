@@ -29,7 +29,7 @@ var(--wintergreendream)
 
 body {
     font-family: 'Zen Loop', cursive;
-    color: white;
+    background-color: var(--cambridgeblue);
 }
 
 /* Core Properties End*/
@@ -158,15 +158,15 @@ body {
 /* About Me start */
 
 .container {
-    position: relative;
+    margin-top: 15rem;
+    background-color: var(--lightcyan);
+    margin: none;
     text-align: right;
-    color: white;
 }
 
 .about-me-image {
-    margin-top: 10rem;
+    margin: 10rem;
     height: 100vh;
-    border-radius: 50%;
 }
 
 /* FOR THE COMMENTED OUT BOXES */
