@@ -170,13 +170,16 @@ body {
     border-radius: 50%;
     max-width: 40vw;
     opacity: 0.7;
-    filter: brightness(50%);
+    filter: brightness(75%);
 }
 
 .about-me-text {
     float: left;
-    font-size: 5rem;
+    font-size: 4rem;
     width: 33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* FOR THE COMMENTED OUT BOXES */
