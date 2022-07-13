@@ -158,6 +158,20 @@ body {
 /* About Me start */
 
 .container {
+    position: relative;
+    text-align: right;
+    color: white;
+}
+
+.about-me-image {
+    margin-top: 10rem;
+    height: 100vh;
+    border-radius: 50%;
+}
+
+/* FOR THE COMMENTED OUT BOXES */
+
+/* .container {
     font-size: 4rem;
     height: 100vh;
     display: flex;
@@ -199,7 +213,7 @@ body {
     height: 100%;
     background-position: top;
     background-repeat: no-repeat;
-}
+} */
 
 /* About Me end */
 
