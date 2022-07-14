@@ -135,7 +135,6 @@ body {
 }
 
 .button {
-    font-size: 1.6rem;
     text-shadow: 1px 1px black;
     margin-top: 1rem;
     letter-spacing: 0.2rem;
@@ -146,6 +145,15 @@ body {
     border: none;
     border-radius: 5px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button a {
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    color: var(--mintcream);
+    background-color: var(--cambridgeblue);
+    font-size: 1.6rem;
+    text-decoration: none;
 }
 
 .button:hover {
