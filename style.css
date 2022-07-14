@@ -141,7 +141,6 @@ body {
     font-weight: 500;
     color: var(--mintcream);
     background-color: var(--cambridgeblue);
-    padding: 0.2em 3rem;
     border: none;
     border-radius: 5px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
